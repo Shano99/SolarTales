@@ -1,0 +1,212 @@
+html, body {
+    height:100%;
+  }
+  body {
+    font-size:100%;
+    font-family: 'Comic Sans MS', cursive;
+    margin:0;
+    background:black;
+    color: #fff;
+    text-align:center;
+  }
+  .slide{
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  
+    border:solid 1em #000;
+    background:#fff;
+    cursor: pointer;
+    height:100vh;
+   
+  }
+  
+  .slide table {
+  width:100%;
+  height:90%;
+    
+    overflow:auto;
+  }
+  
+  .slide td {
+    height:100%;
+     vertical-align:middle;
+  }
+  .slide div {
+   max-width:37.5vw;
+   margin:auto;
+  }
+  
+  
+  h1 {
+  font-weight:normal;
+  font-size:3.8em;
+  font-size:5vw;
+  text-align:center;
+  color: #fff;
+  }
+  p { font-size:1.7em; font-size:2.25vw; line-height:1.4; margin:.2em auto;}
+  
+  .cover{background: url(images/cover.jpg) no-repeat bottom ; 
+    background-size:cover ;}
+  
+  .p1{background:url(https://static.boredpanda.com/blog/wp-content/uploads/2017/05/SolarSystem-590aff12cc2e0__880.gif)
+    no-repeat bottom ; background-size:  100% ;}
+  .p2{background: url(https://i.pinimg.com/originals/46/41/61/4641611401ecb508c625eebe448da663.gif) no-repeat bottom ; 
+    background-size: 100%; 
+  } 
+  .p5{background: url(https://cdn.dribbble.com/users/175606/screenshots/4408997/media/5505d80087b73219b978775b582d2dfc.gif) no-repeat center ; 
+    background-size: 100%; 
+  } 
+  .p6{background: url(https://cdn.dribbble.com/users/1138931/screenshots/3811004/media/0b7e257fdaef735b2128fc7d12eb7f92.gif) no-repeat bottom ; 
+    background-size: 100%; }
+  
+  .p7 { background:url(https://cdn.dribbble.com/users/251177/screenshots/3854387/media/9f8ba80e2da3c02dfedad4d9cfac3895.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  
+  .p8 { background:url(https://i.pinimg.com/originals/0f/61/a9/0f61a927fd3892d1f0db35ad00285be2.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p9 { background:url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1209.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p10 { background:url(https://cdn.dribbble.com/users/2549258/screenshots/5397288/media/f50d49ea670294cfef83afd44d681636.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p11 { background:url(https://cdn.dribbble.com/users/128095/screenshots/3348203/media/fccc339a5c1055e4a809ca6f317c92ba.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p12 { background:url(https://s3.eu-west-2.amazonaws.com/img.creativepool.com/files/candidate/portfolio/full/927482.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p13 { background:url(https://cdn.dribbble.com/users/1857592/screenshots/4425851/dribbble.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  
+  .p14  { background:url(https://media.baamboozle.com/uploads/images/46275/1602509002_2531083    ) no-repeat  center;
+    background-size: 100%;
+  }
+
+  .p15  { background:url(  https://cdn.dribbble.com/users/1548386/screenshots/4611310/media/cf430eb4f35f4f8e58046b1f471d4e5d.gif) no-repeat  center;
+    background-size: 100%;
+  }
+ 
+  .p16  { background:url( https://i.pinimg.com/originals/54/a0/70/54a070c5661f9534ee586d8490e1259c.gif) no-repeat  center;
+    background-size: 100%;
+  }
+  .p17  { background:url(https://i.pinimg.com/originals/72/a8/8c/72a88c29fc53dd5c951f1efe34707dd6.gif) no-repeat  center;
+    background-size: 100%;}
+     
+  .p18 { background:url(https://cdn.dribbble.com/users/44373/screenshots/1559356/media/2fe43f5c06d118b4de161f263fc0184c.gif) no-repeat  center;
+    background-size: 100%;}
+  .p19 { background:url(https://cdn.dribbble.com/users/112217/screenshots/4643307/media/5436c56b101f330c6e3a67eb24f6037a.gif) no-repeat  center;
+    background-size: 100%;} 
+  .p20 { background:url(https://cdn.dribbble.com/users/2146370/screenshots/4453447/media/fab4daf89203eae7fd272ea3f4981e33.gif) no-repeat  center;
+    background-size: 100%;}
+  
+  .p21 { cursor: default ; background:url(https://cdn.dribbble.com/users/1374371/screenshots/2964599/media/c5e0341595e0f34a965f7b2ea7308af2.gif) no-repeat  center;
+    background-size: 100%;} 
+  
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+  }
+  
+  button:hover {
+      background-color: #45a049;
+  }
+  
+  #musicButton {
+      background-color: #008CBA; /* Blue */
+  }
+  
+  #speechButton {
+      background-color: #f44336; /* Red */
+  }
+  
+  
+  .floating {
+    border:solid transparent;
+  animation: floating 5s ease-in-out infinite;
+  }
+  
+  @keyframes floating {
+    50% {transform: translateY(9px);}
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    body{
+    font-size:85%;
+    }
+    p {  font-size:3.5vw; }
+  }
+  
+  .story-container1 {
+    position: relative;
+    
+    height: 100%; /* Make the container take the full height of the table cell */
+  }
+  
+  .story-container1 p {
+    position: absolute;
+    bottom: 0; /* Position the paragraph at the bottom */
+    width: 100%; /* Make the paragraph full width */
+    margin: 0; /* Remove default margin */
+  }
+  .story-container2 {
+    position: relative;
+    height: 100%; /* Make the container take the full height of the table cell */
+  }
+  
+  .story-container2 p {
+    position: absolute;
+    top: 0; /* Position the paragraph at the bottom */
+    width: 100%; /* Make the paragraph full width */
+    margin: 0; /* Remove default margin */
+  }
+  
+/* Animation for slide-in effect */
+.slide-in {
+  animation: slideIn 1s forwards;
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for fade-in effect */
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.highlight {
+  background-color: yellow; /* Set the background color to yellow */
+  font-weight: bold; /* Make the text bold */
+  color: #501313;
+}
